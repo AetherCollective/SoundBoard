@@ -1,4 +1,3 @@
-;#RequireAdmin
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Icon=System\Icon 32.ico
 #AutoIt3Wrapper_Res_Comment=Initial Code by Jeff Savage (BetaLeaf), GUI by Joshua Songer (Xandy)
@@ -6,7 +5,9 @@
 #AutoIt3Wrapper_Res_Fileversion=2.0.0.0
 #AutoIt3Wrapper_Res_LegalCopyright=Copyright © 2017 Jeff Savage (BetaLeaf) & Joshua Songer (Xandy)
 #AutoIt3Wrapper_Res_requestedExecutionLevel=highestAvailable
+#AutoIt3Wrapper_Res_Field=ProductName|SoundBoard
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
+;#RequireAdmin
 FileInstall(".\System\key_names.txt", @ScriptDir & "\System\key_names.txt", 1)
 FileInstall(".\System\Icon 32.ico", @ScriptDir & "\System\Icon 32.ico", 1)
 FileInstall(".\System\Contributors.txt", @ScriptDir & "\System\Contributors.txt", 1)
